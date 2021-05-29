@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text } from "react-native";
 
-export default function IniciarFinalizarServicio() {
+export default function RegistroConductor() {
     return (
         <View>
-            <Text>Iniciar/Finalizar Servicio</Text>
+            <Text>Registro de Conductores</Text>
         </View>
     );
 }
