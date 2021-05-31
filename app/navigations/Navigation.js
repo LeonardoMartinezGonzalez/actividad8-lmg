@@ -5,7 +5,7 @@ import { Icon } from "react-native-elements";
 
 import Home from "./HomeStack";
 import Registro from "./RegistroStack";
-import Verificar from "./VerificarStack";
+import Servicio from "./ServicioStack";
 import IniciarFinalizarServicio from "./IniciarFinalizarServicioStack";
 
 
@@ -35,9 +35,9 @@ export default function Navigation() {
               options={{ title: "Registro de Usuarios" }}
             />
             <Tab.Screen
-              name="validar"
-              component={Verificar}
-              options={{ title: "Validar Usuario" }}
+              name="servicio"
+              component={Servicio}
+              options={{ title: "Servicio de  Usuario" }}
             />
             <Tab.Screen
               name="iniciarfinalizarservicio"

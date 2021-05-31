@@ -1,6 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Verificar from "../screens/Verificar";
+//import Verificar from "../screens/Verificar";
 
 const Stack = createStackNavigator();
 
